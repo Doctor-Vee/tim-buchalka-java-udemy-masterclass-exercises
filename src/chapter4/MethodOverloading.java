@@ -12,4 +12,8 @@ public class MethodOverloading {
         double inch = inches % 12;
         return (calcFeetAndInchesToCentimeters(feet, inch));
     }
+
+    public static void main(String[] args) {
+        System.out.println(String.format("%.2f", calcFeetAndInchesToCentimeters(341)));
+    }
 }

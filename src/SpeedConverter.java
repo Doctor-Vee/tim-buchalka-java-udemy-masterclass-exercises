@@ -12,4 +12,8 @@ public class SpeedConverter {
             System.out.println(kilometersPerHour + " km/h = " + milesPerHour + " mi/h");
         }
     }
+
+    public static void main(String[] args) {
+        printConversion(33.13);
+    }
 }
